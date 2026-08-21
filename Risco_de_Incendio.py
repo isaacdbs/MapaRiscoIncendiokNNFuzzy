@@ -334,4 +334,6 @@ grafico = plt.scatter(
 plt.colorbar(grafico, label='Risco de Incêndio Florestal')
 
 plt.title("Mapa de Risco de Incêndio Florestal")
+plt.savefig("mapa_risco_incendio.png", dpi=150, bbox_inches="tight")
 plt.show()
+print('Mapa salvo como mapa_risco_incendio.png')
